@@ -156,6 +156,7 @@ body {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+    position: fixed;
 }
 
 .sidebar .cookies a:hover {
@@ -173,4 +174,47 @@ body {
     margin: 8px;
     width: 170px;
     padding: 8px;   
+}
+
+.disclaimer-premium {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none; 
+}
+
+.disclaimer-premium .text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 10px;   
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    text-transform: uppercase;
+    font-size: 11px;
+
+}
+
+.disclaimer-premium .button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 20px;
+    color:#000;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 130px;
+    padding: 12px 18px;
 }
